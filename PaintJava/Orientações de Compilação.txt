@@ -1,0 +1,53 @@
+Classes do FormasGeometricas
+-São importados apenas classes da biblioteca java
+
+Classes Auxiliares
+*PainelDesenho
+-importa a classe FormasGeometricas.Figura2D
+-importa a classe FormasGeometricas.Quadrado2D
+
+*Editor
+-importa a classe FormasGeometricas.Circulo2D;
+-importa a classe FormasGeometricas.Figura2D;
+-importa a classe FormasGeometricas.Geometrica;
+-importa a classe FormasGeometricas.PoligonoLivre;
+-importa a classe FormasGeometricas.Quadrado2D;
+-importa a classe FormasGeometricas.Triangulo2D;
+- o resto das classes importadas é das bibliotecas padrões de java
+
+*Clonador
+-importa a classe FormasGeometricas.Circulo2D;
+-importa a classe FormasGeometricas.Geometrica;
+-importa a classe FormasGeometricas.PoligonoLivre;
+-importa a classe FormasGeometricas.Quadrado2D;
+-importa a classe FormasGeometricas.Triangulo2D;
+- o resto das classes importadas é das bibliotecas padrões de java
+
+Janelas
+*Camadas
+-importa a classe Auxiliares.Clonador;
+-importa a classe Auxiliares.Editor;
+-importa a classe Auxiliares.EditorCamada;
+-importa a classe FormasGeometricas.Circulo2D;
+-importa a classe FormasGeometricas.Figura2D;
+-importa a classe FormasGeometricas.Geometrica;
+-importa a classe FormasGeometricas.PoligonoLivre;
+-importa a classe FormasGeometricas.Quadrado2D;
+-importa a classe FormasGeometricas.Triangulo2D;
+- o resto das classes importadas é das bibliotecas padrões de java
+
+FormasDeDesenho
+-São importados apenas classes da biblioteca java
+
+Paleta
+-São importados apenas classes da biblioteca java
+
+Interface
+-importa a classe Auxiliares.Editor;
+-importa a classe FormasGeometricas.Circulo2D;
+-importa a classe FormasGeometricas.PoligonoLivre;
+-importa a classe FormasGeometricas.Quadrado2D;
+-importa a classe FormasGeometricas.Triangulo2D;
+- o resto das classes importadas é das bibliotecas padrões de java
+
+Não há figuras externas para serem colocadas

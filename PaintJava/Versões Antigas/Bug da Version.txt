@@ -1,0 +1,80 @@
+0.1
+-Interface incompleta
+-Não é possível desenhar
+-salva apenas arquivos de texto
+-as imagens não compilaram com os botãos
+-Novo não implementado
+-Exit não implementado
+-Editar camadas não implementado
+-Fecha apenas finalizando processos
+
+0.2 há 0.3
+-não salvavam
+-não abriam arquivos
+-não desenhavam
+*paleta de cores foi pra fora do programa
+*paleta funcional
+
+0.4 
+-Tela cinza como backgroud
+-erro na leitura rgb das cores
+*é possivel desenhar
+*ainda tinha uma interface suja por botões
+*Novo implementado
+*Exit implementado
+
+0.5
+*Salvar implementado
+*Abrir implementado
+*Bloco de Formas implementado
+
+0.6
+-Triângulo não implementado
+-as caixas para digitar valores, só assimilam os valores com Enter,tornando cansativo para o usuário
+-as caixas não corrigem seus erros de valores de forma eficiente
+-é possível setar bordas aos desenhos
+-Ao criar os desenhos não são centralizados
+-Ao clicar novo não pergunta se deseja Salvar
+*Bloco de formas funcional
+*Borda implementada
+
+
+0.7
+-Quando Clicka em borda, ele reseta a base do Triângulo
+-Ao clicar novo não pergunta se deseja Salvar
+-Não implementado os botões livre do quadrilatero e triângulo
+*Eventos implementados de forma melhorada
+*Grossura da borda implementada
+*Triângulo implementado e funcional
+*Correção na caixa de texto da Paleta
+*Caixas de valores menos cansativas
+*A opção TELA implementada
+
+0.8
+-Editor de camadas ainda não criado
+-Ainda não é fácil deduzir como utilizar das ferramentas
+*Todas as funções de desenho foram implementadas 
+
+0.9.0
+-Editor de camadas ainda não criado
+-Ainda não é fácil deduzir como utilizar das ferramentas
+*Poligono mágico implementado
+*Capacidade de fazer retas implementada
+*Correções em erros ao criar novo arquivo e utilizar a tecla Z
+*Implementado a tecla z como excluidor da ultima camada
+
+0.9.1
+-Janela de camadas não funcional
+*Janela de Camadas implementada
+
+0.9.2
+-Bug no RGB da Paleta
+*Interface melhorada visualmente
+
+0.9.3
+-Bug não corrigido
+*Botão de ajuda implementado
+*Balões de ajuda implementado
+*Botão Atualizar implementado
+*Borda para facilitar a visualizão das caixas de cor implementada
+

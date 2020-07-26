@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package ChatProtocolBuffers;
+
+option java_package = "br.ufs.dcomp.ProtocolBuffers";
+option java_outer_classname = "SerialProto";
+
+message Cabecalho {
+    string data = 1;
+    string hora = 2;
+    string emisor = 3;
+    string grupo = 4;
+    string tipo = 5;
+}
+
+message Mensagem {
+    Cabecalho cabecalho = 1;
+    string nome_conteudo = 2;
+    bytes conteudo      = 3;
+
+}
+
