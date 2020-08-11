@@ -6,16 +6,27 @@
     <title>Aprendendo JavaScript</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='tutorial.js'></script>
+    
 </head>
-<body>
-    <h1>Maior Que: </h1>
-    <h2>Bem Vindo!</h2>
-    <input type="text" id="x" placeholder="Digite um valor">
-    <input type="text" id="y" placeholder="Digite um valor">
-    <button onclick="maior(x.value, y.value)"> Verificar </button>
-    <br> <br>
-    <label for="" id='Resultado'> </label>
 
+<body>
+    <main>
+        <h1>Menor Que:</h1> <br><br>
+
+    </main>
+
+    <div class='menorQue'>
+        <input type="number" name="textX" id="IdX" placeholder="Digite o primeiro numero" >  <br><br>
+        <input type="number" name="textY" id="IdY" placeholder="Digite o segundo numero" >  <br><br>
+        <label for="" id='IdResultado' >  </label> <br><br>
+        <input type="submit", id="IdSubmit", class='buttons', value="Resultado", onclick="maior(IdX,IdY)"> <br><br> 
+    </div>
+     
+    <header id="IdTeste">
+        <h2>Testando</h2>
+    </header>
+    
+    <script src='tutorial.js'></script>
 </body>
+
 </html>
